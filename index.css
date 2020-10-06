@@ -1,1 +1,99 @@
 /* Put your style information here! */
+
+html, body {
+    height: 100%;
+    }
+    
+html {
+    display: table;
+    margin: auto;
+    }
+
+
+body{
+    background-color: #111010;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Patrick Hand', cursive;
+}
+
+h1{
+    font-size: 45px;
+    color: aliceblue;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+h2{
+    margin-top: 5%;
+    margin-bottom: 3%;
+    color: rgb(223, 196, 196) !important;
+}
+
+.subheadings{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.image{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-style: dotted;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 400px;
+    display: table-cell;
+    text-align: center;
+vertical-align: middle;
+}
+
+
+
+.image1{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-style: dotted;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.boards{
+    border-style: dotted;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: table-cell;
+    text-align: center;
+/* vertical-align: middle; */
+}
+.numbers{
+    margin: 15px;
+}
+
+.page {
+    font-size: 18px;
+    color: aliceblue;
+}
+
+.bg-light {
+    background-color: rgb(223, 196, 196) !important;
+    height: 60px;
+    }
+
+.nav-link{
+    font-size: 20px;
+}
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 49%;
+
+    }
+    
+@media only screen and (max-width: 1200px) {
+     .responsive {
+        width: 100%;
+    }
+}
+/
