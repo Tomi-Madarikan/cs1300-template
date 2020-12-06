@@ -11,15 +11,18 @@ html {
 
 
 body{
-    background-color: #111010;
+    background-color: white;
     display: table-cell;
     vertical-align: middle;
     font-family: 'Patrick Hand', cursive;
+    font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
+
 }
 
 h1{
     font-size: 45px;
-    color: aliceblue;
+    text-decoration: underline;
+    color: black;
     margin-top: 15px;
     margin-bottom: 25px;
 }
@@ -73,7 +76,7 @@ vertical-align: middle;
 
 .page {
     font-size: 18px;
-    color: aliceblue;
+    color: black;
 }
 
 .bg-light {
@@ -82,7 +85,7 @@ vertical-align: middle;
     }
 
 .nav-link{
-    font-size: 20px;
+    font-size: 16px;
 }
 .responsive {
     padding: 0 6px;
@@ -96,4 +99,3 @@ vertical-align: middle;
         width: 100%;
     }
 }
-/
